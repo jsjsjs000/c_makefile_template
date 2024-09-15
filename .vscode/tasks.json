@@ -13,7 +13,11 @@
 			"label": "build",
 			"type": "shell",
 			"command": "make", // -C build
-			"problemMatcher": ["$gcc"]
+			"problemMatcher": ["$gcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		},
 	]
 }
